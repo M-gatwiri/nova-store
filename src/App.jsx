@@ -41,6 +41,41 @@ function App() {
       rating: 4.8,
       inStock: true,
     },
+    {
+    id: 6,
+      name: "Phone",
+      price: 12000,
+      rating: 5,
+      inStock: false,
+    },
+    {
+      id: 7,
+      name: "Tv",
+      price: 43000,
+      rating: 4.4,
+      inStock: true,
+    },
+    {
+      id: 8,
+      name: "Mini Keyboard",
+      price: 10000,
+      rating: 4.1,
+      inStock: false,
+    },
+    {
+      id: 8,
+      name: "Desktop",
+      price: 50000,
+      rating: 4.1,
+      inStock: true,
+    },
+    {
+      id: 8,
+      name: "Study Table",
+      price: 12000,
+      rating: 4.6,
+      inStock: true,
+    },
   ];
 
   const [searchItem, setSearchItem] = useState("");
