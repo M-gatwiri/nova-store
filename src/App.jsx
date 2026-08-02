@@ -62,20 +62,20 @@ function App() {
       rating: 4.1,
       inStock: false,
     },
-    {
-      id: 8,
-      name: "Desktop",
-      price: 50000,
-      rating: 4.1,
-      inStock: true,
-    },
-    {
-      id: 8,
-      name: "Study Table",
-      price: 12000,
-      rating: 4.6,
-      inStock: true,
-    },
+    // {
+    //   id: 9,
+    //   name: "Desktop",
+    //   price: 50000,
+    //   rating: 4.1,
+    //   inStock: true,
+    // },
+    // {
+    //   id: 10,
+    //   name: "Study Table",
+    //   price: 12000,
+    //   rating: 4.6,
+    //   inStock: true,
+    // },
   ];
 
   const [searchItem, setSearchItem] = useState("");
