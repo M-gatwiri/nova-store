@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import ProductCard from "./components/ProductCard";
+// import ProductCard from "./components/ProductCard";
 import ProductList from "./components/ProductList";
 import SearchBar from "./components/SearchBar";
-import "./app.css";
+import "./App.css";
 
 function App() {
   const products = [
